@@ -1,10 +1,11 @@
 @import "normalize";
 
-/**************** BOX WRAP FOR THE ENTIRE PAGE ***********************/
+/**************** THE ENTIRE PAGE ***********************/
 
 .page-wrapper{
 	overflow: hidden;
-	background-color: #F2D08A	
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	/*background-color: #F2D08A;*/	
 }
 
 /**************** A TAGS *********************************************/
@@ -18,7 +19,9 @@ a {
 
 #zen-intro{
 	color: white;
+	background-repeat: no-repeat;
 	overflow: hidden;
+	padding-bottom: 6em;
 }
 
 header{
@@ -26,34 +29,95 @@ header{
 	background-color: #D80000;
 	text-align: center;
 	margin-top: 17em;
-	margin-left: 4em;
-	margin-bottom: 0;
+	margin-left: 2em;
 	padding: 0.1em;
 	padding-right: 0.2em;
 	padding-left: 0.2em;
 	max-width: 20.8em;
+	border: 4px solid #4D4D4D;
 	float: right;
+	font-family: russian;
+	display: block;
+	position: relative;
 }
+
+header::after{
+	content: "";
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}	
 
 .summary{
 	transform: rotate(310deg);
 	background-color: #F70000;
-	margin-left: 11em;
-	margin-right: 0;
-	margin-top: 2.4em;
+	/*margin-left: 11em;
+	margin-right: 0;*/
+	width: 100%;
+	max-width: 24em;
+	margin-top: 11.1em;
 	padding: 0.5em;
-	max-width: 13em;
+	border: 4px solid #4D4D4D;
 	float: right;
+	display: block;
+	position: relative;
+	p{
+		font-family: Impact;
+		font-weight: 100;
+		margin: 0 auto;
+		max-width: 13em;
+	}
+}
+
+.summary::after{
+	content: "";
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
 /*************** PREAMBLE *****************************/
 
 .preamble{
-	margin-top: 6em;
-	background-color: #F70000;
-	width: 20em;
+	transform: rotate(310deg);
+	margin-top: 8em;
+	margin-left: 4em;
+	background-color:  #F70000;
+	color: white;
+	max-width: 20em;
 	padding: 0.5em;
-	float: left
+	float: left;
+	border: 4px solid #4D4D4D;
+	display: block;
+	position: relative;
+	h3{
+		font-family: Impact;
+	}
+	p{
+		font-family: Impact;
+	}
+}
+
+.preamble::after{
+	content: "";
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
 /*************** EXPLANATION **************************/
@@ -70,6 +134,21 @@ header{
 	padding: 0.5em;
 	margin-left: 4.2em;
 	max-width: 18em;
+	border: 4px solid #4D4D4D;
+	display: block;
+	position: relative;	
+}
+
+.explanation::after{
+	content: "";
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
 /*************** PARTICIPATION *************************/
@@ -77,12 +156,28 @@ header{
 
 
 .participation{
+	transform: rotate(20deg);
 	margin-top: 8em;
-	background-color: #F70000;
+	background-color: #D80000;
 	color: white;
 	max-width: 20em;
 	float: right;
 	padding: 0.5em;
+	border: 4px solid #4D4D4D;
+	display: block;
+	position: relative;
+}
+
+.participation::after{
+	content: "";
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
 
@@ -95,25 +190,144 @@ header{
 	color: white;
 	padding: 0.5em;
 	max-width: 16em;
+	border: 4px solid #4D4D4D;
 	float: right;
+	display: block;
+	position: relative;
+}
+
+.benefits::after{
+	content: "";
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
 /*************** REQUIREMENTS *************************/
 
 .requirements{
+	transform: rotate(10deg);
 	margin-top: 7em;
-	background-color: #F70000;
+	background-color: #D80000;
 	color: white;
 	max-width: 20em;
 	padding: 0.5em;
+	border: 4px solid #4D4D4D;
 	float: left;
+	display: block;
+	position: relative;
+}
+
+.requirements::after{
+	content: "";
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
 }
 
 /*************** FOOTER *******************************/
 
 footer{
+	transform: rotate(370deg);
+	padding: 0.5em;
+	width: 20em;
+	max-width: 20em;
+	background-color: #D80000;
+	border: 4px solid #4D4D4D;
 	float: left;
+	display: block;
+	position: relative;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
+
+footer::after{
+	content: "";
+	background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+/*************** SIDEBAR CONTENT *********************/
+
+ul{
+	padding: 0;
+}
+
+li {
+	padding: 0;
+	list-style-type: none;
+	font-family: Impact;
+}
+
+.wrapper{
+	overflow: hidden;
+	color: white;
+	background-image: url(https://hkinteractive.files.wordpress.com/2013/05/resource.jpg);
+	padding: 0.5em;
+	border-top: 2px solid black;
+	margin-top: 1em;
+}
+
+.design-selection{
+	background-color: #D80000;
+	border: 3px solid black;
+	max-width: 20em;
+	margin-bottom: 1em;
+	padding: 0 0.5em 0 0.5em;
+	float: left;
+	h3{
+		font-family: impact;
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
+	}
+}
+
+.design-archives{
+	background-color: #D80000;
+	border: 3px solid black;
+	margin-bottom: 1em;
+	margin-top: 2em;
+	max-width: 10em;
+	padding: 0 0.5em 0 0.5em;
+	float: right;
+	transform: rotate(310deg);
+	h3{
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
+	}
+}
+
+.zen-resources{
+	background-color: #D80000;
+	border: 3px solid black;
+	margin-bottom: 1em;
+	margin-top: 10em;
+	max-width: 15em;
+	padding: 0 0.5em 0 0.5em;
+	float: right;
+	transform: rotate(310deg);
+	h3{
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
+	}
+}
+
 
 
 
