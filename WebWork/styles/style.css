@@ -353,4 +353,95 @@ td,
 th {
   padding: 0; }
 
+/**************** BOX WRAP FOR THE ENTIRE PAGE ***********************/
+.page-wrapper {
+  overflow: hidden;
+  background-color: #F2D08A; }
+
+/**************** A TAGS *********************************************/
+a {
+  color: #FCBE00;
+  text-decoration: none; }
+
+/**************** TOP HEADER AND FIRST INTRO SECTION *****************/
+#zen-intro {
+  color: white;
+  overflow: hidden; }
+
+header {
+  transform: rotate(310deg);
+  background-color: #D80000;
+  text-align: center;
+  margin-top: 17em;
+  margin-left: 4em;
+  margin-bottom: 0;
+  padding: 0.1em;
+  padding-right: 0.2em;
+  padding-left: 0.2em;
+  max-width: 20.8em;
+  float: right; }
+
+.summary {
+  transform: rotate(310deg);
+  background-color: #F70000;
+  margin-left: 11em;
+  margin-right: 0;
+  margin-top: 2.4em;
+  padding: 0.5em;
+  max-width: 13em;
+  float: right; }
+
+/*************** PREAMBLE *****************************/
+.preamble {
+  margin-top: 6em;
+  background-color: #F70000;
+  width: 20em;
+  padding: 0.5em;
+  float: left; }
+
+/*************** EXPLANATION **************************/
+#zen-supporting {
+  overflow: hidden; }
+
+.explanation {
+  transform: rotate(20deg);
+  margin-top: 8em;
+  background-color: #F70000;
+  color: white;
+  padding: 0.5em;
+  margin-left: 4.2em;
+  max-width: 18em; }
+
+/*************** PARTICIPATION *************************/
+.participation {
+  margin-top: 8em;
+  background-color: #F70000;
+  color: white;
+  max-width: 20em;
+  float: right;
+  padding: 0.5em; }
+
+/*************** BENEFITS *****************************/
+.benefits {
+  transform: rotate(310deg);
+  margin-top: 5em;
+  background-color: #F70000;
+  color: white;
+  padding: 0.5em;
+  max-width: 16em;
+  float: right; }
+
+/*************** REQUIREMENTS *************************/
+.requirements {
+  margin-top: 7em;
+  background-color: #F70000;
+  color: white;
+  max-width: 20em;
+  padding: 0.5em;
+  float: left; }
+
+/*************** FOOTER *******************************/
+footer {
+  float: left; }
+
 /*# sourceMappingURL=style.css.map */
