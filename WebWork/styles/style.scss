@@ -19,21 +19,22 @@ a {
 #zen-intro{
 	color: white;
 	overflow: hidden;
-	padding-bottom: 6em;
+	padding-bottom: 3em;
 }
 
 header{
-	transform: rotate(310deg);
+	transform: rotate(345deg);
 	background-color: #D80000;
 	text-align: center;
-	margin-top: 17em;
+	margin-top: 21em;
 	margin-left: 2em;
+	margin-right: 4em;
+	margin-bottom: 0;
 	padding: 0.1em;
 	padding-right: 0.2em;
 	padding-left: 0.2em;
 	max-width: 20.8em;
 	border: 4px solid #4D4D4D;
-	float: right;
 	font-family: russian;
 	display: block;
 	position: relative;
@@ -52,23 +53,18 @@ header::after{
 }	
 
 .summary{
-	transform: rotate(310deg);
+	transform: rotate(345deg);
 	background-color: #D80000;
-	/*margin-left: 11em;
-	margin-right: 0;*/
-	width: 100%;
-	max-width: 24em;
-	margin-top: 11.1em;
+	margin-left: 1em;
+	max-width: 27em;
+	margin-top: 1em;
 	padding: 0.5em;
 	border: 4px solid #4D4D4D;
-	float: right;
 	display: block;
 	position: relative;
 	p{
-		font-family: Impact;
+		font-family: PT Sans Narrow;
 		font-weight: 100;
-		margin: 0 auto;
-		max-width: 13em;
 	}
 }
 
@@ -87,14 +83,13 @@ header::after{
 /*************** PREAMBLE *****************************/
 
 .preamble{
-	transform: rotate(0deg);
-	margin-top: 8em;
-	margin-left: 4em;
+	transform: rotate(345deg);
+	margin-top: 1em;
+	margin-left: 3.5em;
 	background-color:  #D80000;
 	color: white;
-	max-width: 20em;
+	max-width: 19em;
 	padding: 0.5em;
-	float: left;
 	border: 4px solid #4D4D4D;
 	display: block;
 	position: relative;
@@ -102,7 +97,7 @@ header::after{
 		font-family: Impact;
 	}
 	p{
-		font-family: Impact;
+		font-family: PT Sans Narrow;
 	}
 }
 
@@ -125,16 +120,22 @@ header::after{
 }
 
 .explanation{
-	transform: rotate(20deg);
-	margin-top: 8em;
+	transform: rotate(345deg);
+	margin-top: 3em;
 	background-color: #D80000;
 	color: white;
 	padding: 0.5em;
-	margin-left: 4.2em;
+	margin-left: 3.2em;
 	max-width: 18em;
 	border: 4px solid #4D4D4D;
 	display: block;
 	position: relative;	
+	h3{
+		font-family: Impact;
+	}
+	p{
+		font-family: PT Sans Narrow;
+	}	
 }
 
 .explanation::after{
@@ -158,12 +159,25 @@ header::after{
 	margin-top: 8em;
 	background-color: #D80000;
 	color: white;
-	max-width: 20em;
-	float: right;
+	height: 31em;
+	border-top: 4px solid #4D4D4D;
+	border-bottom: 4px solid #4D4D4D;
+	border-right: 4px solid #4D4D4D;
+	/*max-width: 20em;*/
+	/*float: right;*/
 	padding: 0.5em;
-	border: 4px solid #4D4D4D;
+	/*border: 4px solid #4D4D4D;*/
 	display: block;
 	position: relative;
+	h3{
+		font-family: Impact;
+		max-width: 5em;
+		margin-bottom: 3em;
+	}
+	p{
+		font-family: PT Sans Narrow;
+		max-width: 20em;
+	}
 }
 
 .participation::after{
@@ -182,16 +196,22 @@ header::after{
 /*************** BENEFITS *****************************/
 
 .benefits{
-	transform: rotate(310deg);
-	margin-top: 5em;
+	transform: rotate(0deg);
+	margin-top: 4em;
+	margin-left: 8em;
 	background-color: #D80000;
 	color: white;
 	padding: 0.5em;
 	max-width: 16em;
 	border: 4px solid #4D4D4D;
-	float: right;
 	display: block;
 	position: relative;
+	h3{
+		font-family: Impact;
+	}
+	p{
+		font-family: PT Sans Narrow;
+	}
 }
 
 .benefits::after{
@@ -210,15 +230,20 @@ header::after{
 
 .requirements{
 	transform: rotate(0deg);
-	margin-top: 7em;
+	margin-top: 4em;
 	background-color: #D80000;
 	color: white;
 	max-width: 20em;
 	padding: 0.5em;
 	border: 4px solid #4D4D4D;
-	float: left;
 	display: block;
 	position: relative;
+	h3{
+		font-family: Impact;
+	}
+	p{
+		font-family: PT Sans Narrow;
+	}	
 }
 
 .requirements::after{
@@ -242,11 +267,12 @@ footer{
 	max-width: 20em;
 	background-color: #D80000;
 	border: 4px solid #4D4D4D;
-	float: left;
 	display: block;
 	position: relative;
 	margin-top: 2em;
 	margin-bottom: 2em;
+	font-family: Impact;
+	
 }
 
 footer::after{
@@ -270,7 +296,7 @@ ul{
 li {
 	padding: 0;
 	list-style-type: none;
-	font-family: Impact;
+	font-family: PT Sans Narrow;
 }
 
 .wrapper{
@@ -279,16 +305,18 @@ li {
 	/*background-image: url(https://hkinteractive.files.wordpress.com/2013/05/resource.jpg);*/
 	padding: 0.5em;
 	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .design-selection{
-	transform: rotate(0deg);
+	transform: rotate(20deg);
 	background-color: #D80000;
-	border: 3px solid black;
+	border: 4px solid #4D4D4D;
 	max-width: 20em;
 	margin-bottom: 1em;
+	margin-top: 3.5em;
+	margin-left: 1.5em;
 	padding: 0 0.5em 0 0.5em;
-	float: left;
 	display: block;
 	position: relative;
 	h3{
@@ -312,16 +340,17 @@ li {
 
 .design-archives{
 	background-color: #D80000;
-	border: 3px solid black;
+	border: 4px solid #4D4D4D;
 	margin-bottom: 1em;
 	margin-top: 2em;
+	margin-left: 1em;
 	max-width: 10em;
 	padding: 0 0.5em 0 0.5em;
-	float: right;
-	transform: rotate(310deg);
+	transform: rotate(20deg);
 	display: block;
 	position: relative;
 	h3{
+		font-family: Impact;
 		margin-top: 0.2em;
 		margin-bottom: 0.2em;
 	}
@@ -341,16 +370,17 @@ li {
 
 .zen-resources{
 	background-color: #D80000;
-	border: 3px solid black;
-	margin-bottom: 1em;
-	margin-top: 10em;
+	border: 4px solid #4D4D4D;
+	margin-bottom: 2em;
+	margin-top: 2em;
 	max-width: 15em;
+	margin-left: 1em;
 	padding: 0 0.5em 0 0.5em;
-	float: right;
-	transform: rotate(310deg);
+	transform: rotate(20deg);
 	display: block;
 	position: relative;
 	h3{
+		font-family: impact;
 		margin-top: 0.2em;
 		margin-bottom: 0.2em;
 	}
