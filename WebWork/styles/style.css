@@ -356,8 +356,7 @@ th {
 /**************** THE ENTIRE PAGE ***********************/
 .page-wrapper {
   overflow: hidden;
-  background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
-  /*background-color: #F2D08A;*/ }
+  background-image: url(http://www.siwallpaperhd.com/wp-content/uploads/2015/07/textured_paper_wallpaper.jpg); }
 
 /**************** A TAGS *********************************************/
 a {
@@ -367,7 +366,6 @@ a {
 /**************** TOP HEADER AND FIRST INTRO SECTION *****************/
 #zen-intro {
   color: white;
-  background-repeat: no-repeat;
   overflow: hidden;
   padding-bottom: 6em; }
 
@@ -400,7 +398,7 @@ header::after {
 
 .summary {
   transform: rotate(310deg);
-  background-color: #F70000;
+  background-color: #D80000;
   /*margin-left: 11em;
   margin-right: 0;*/
   width: 100%;
@@ -430,10 +428,10 @@ header::after {
 
 /*************** PREAMBLE *****************************/
 .preamble {
-  transform: rotate(310deg);
+  transform: rotate(0deg);
   margin-top: 8em;
   margin-left: 4em;
-  background-color: #F70000;
+  background-color: #D80000;
   color: white;
   max-width: 20em;
   padding: 0.5em;
@@ -464,7 +462,7 @@ header::after {
 .explanation {
   transform: rotate(20deg);
   margin-top: 8em;
-  background-color: #F70000;
+  background-color: #D80000;
   color: white;
   padding: 0.5em;
   margin-left: 4.2em;
@@ -486,7 +484,7 @@ header::after {
 
 /*************** PARTICIPATION *************************/
 .participation {
-  transform: rotate(20deg);
+  transform: rotate(0deg);
   margin-top: 8em;
   background-color: #D80000;
   color: white;
@@ -512,7 +510,7 @@ header::after {
 .benefits {
   transform: rotate(310deg);
   margin-top: 5em;
-  background-color: #F70000;
+  background-color: #D80000;
   color: white;
   padding: 0.5em;
   max-width: 16em;
@@ -534,7 +532,7 @@ header::after {
 
 /*************** REQUIREMENTS *************************/
 .requirements {
-  transform: rotate(10deg);
+  transform: rotate(0deg);
   margin-top: 7em;
   background-color: #D80000;
   color: white;
@@ -558,7 +556,7 @@ header::after {
 
 /*************** FOOTER *******************************/
 footer {
-  transform: rotate(370deg);
+  transform: rotate(0deg);
   padding: 0.5em;
   width: 20em;
   max-width: 20em;
@@ -593,22 +591,35 @@ li {
 .wrapper {
   overflow: hidden;
   color: white;
-  background-image: url(https://hkinteractive.files.wordpress.com/2013/05/resource.jpg);
+  /*background-image: url(https://hkinteractive.files.wordpress.com/2013/05/resource.jpg);*/
   padding: 0.5em;
-  border-top: 2px solid black;
   margin-top: 1em; }
 
 .design-selection {
+  transform: rotate(0deg);
   background-color: #D80000;
   border: 3px solid black;
   max-width: 20em;
   margin-bottom: 1em;
   padding: 0 0.5em 0 0.5em;
-  float: left; }
+  float: left;
+  display: block;
+  position: relative; }
   .design-selection h3 {
     font-family: impact;
     margin-top: 0.2em;
     margin-bottom: 0.2em; }
+
+.design-selection::after {
+  content: "";
+  background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
 
 .design-archives {
   background-color: #D80000;
@@ -618,10 +629,23 @@ li {
   max-width: 10em;
   padding: 0 0.5em 0 0.5em;
   float: right;
-  transform: rotate(310deg); }
+  transform: rotate(310deg);
+  display: block;
+  position: relative; }
   .design-archives h3 {
     margin-top: 0.2em;
     margin-bottom: 0.2em; }
+
+.design-archives::after {
+  content: "";
+  background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
 
 .zen-resources {
   background-color: #D80000;
@@ -631,9 +655,22 @@ li {
   max-width: 15em;
   padding: 0 0.5em 0 0.5em;
   float: right;
-  transform: rotate(310deg); }
+  transform: rotate(310deg);
+  display: block;
+  position: relative; }
   .zen-resources h3 {
     margin-top: 0.2em;
     margin-bottom: 0.2em; }
+
+.zen-resources::after {
+  content: "";
+  background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
 
 /*# sourceMappingURL=style.css.map */
