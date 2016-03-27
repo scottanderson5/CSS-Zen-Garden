@@ -354,9 +354,11 @@ th {
   padding: 0; }
 
 /**************** THE ENTIRE PAGE ***********************/
+#css-zen-garden {
+  background-color: #F2D08A; }
+
 .page-wrapper {
-  overflow: hidden;
-  background-image: url(http://www.siwallpaperhd.com/wp-content/uploads/2015/07/textured_paper_wallpaper.jpg); }
+  padding-bottom: 3em; }
 
 /**************** A TAGS *********************************************/
 a {
@@ -364,16 +366,26 @@ a {
   text-decoration: none; }
 
 /**************** TOP HEADER AND FIRST INTRO SECTION *****************/
-#zen-intro {
+.intro {
   color: white;
   overflow: hidden;
-  padding-bottom: 3em; }
+  padding-bottom: 3em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fist.svg/2000px-Fist.svg.png) center top no-repeat;
+  background-attachment: fixed;
+  background-size: 70%;
+  animation: rise 2s forwards;
+  height: 100%; }
 
+@keyframes rise {
+  0% {
+    transform: translate(0, 100em); }
+  100% {
+    transform: translate(0, 0em); } }
 header {
   transform: rotate(345deg);
   background-color: #D80000;
   text-align: center;
-  margin-top: 21em;
+  margin-top: 27em;
   margin-left: 2em;
   margin-right: 4em;
   margin-bottom: 0;
@@ -425,7 +437,7 @@ header::after {
 /*************** PREAMBLE *****************************/
 .preamble {
   transform: rotate(345deg);
-  margin-top: 1em;
+  margin-top: 2em;
   margin-left: 3.5em;
   background-color: #D80000;
   color: white;
@@ -491,7 +503,7 @@ header::after {
   border-top: 4px solid #4D4D4D;
   border-bottom: 4px solid #4D4D4D;
   border-right: 4px solid #4D4D4D;
-  /*max-width: 20em;*/
+  max-width: 28em;
   /*float: right;*/
   padding: 0.5em;
   /*border: 4px solid #4D4D4D;*/
@@ -604,6 +616,11 @@ li {
   padding: 0;
   list-style-type: none;
   font-family: PT Sans Narrow; }
+
+.aside {
+  clear: both;
+  width: 100%;
+  display: block; }
 
 .wrapper {
   overflow: hidden;
