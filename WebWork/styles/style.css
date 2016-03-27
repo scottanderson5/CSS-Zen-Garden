@@ -366,7 +366,7 @@ a {
 
 /**************** TOP HEADER AND FIRST INTRO SECTION *****************/
 .intro {
-  color: white;
+  color: #ECE6DA;
   overflow: hidden;
   padding-bottom: 3em;
   background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fist.svg/2000px-Fist.svg.png) center top no-repeat;
@@ -395,10 +395,12 @@ header {
   display: block;
   position: relative; }
   header h1 {
-    font-family: russian;
+    font-family: Impact;
+    font-weight: 700;
     max-width: 17em; }
   header h2 {
-    font-family: Impact;
+    font-family: Avenir Next Condensed;
+    font-weight: 700;
     max-width: 18em; }
 
 header::after {
@@ -425,8 +427,8 @@ header::after {
   .summary p {
     padding-left: 1em;
     max-width: 20em;
-    font-family: PT Sans Narrow;
-    font-weight: 100; }
+    font-family: Menlo;
+    font-weight: 700; }
 
 .summary::after {
   content: "";
@@ -445,7 +447,7 @@ header::after {
   margin-left: 3.5em;
   margin-top: -1.5em;
   background-color: #D80000;
-  color: white;
+  color: #ECE6DA;
   width: 100%;
   padding: 0.5em;
   border: 4px solid #4D4D4D;
@@ -456,8 +458,9 @@ header::after {
     font-family: Impact; }
   .preamble p {
     padding-left: 1em;
-    max-width: 18em;
-    font-family: PT Sans Narrow; }
+    max-width: 17.5em;
+    font-family: Menlo;
+    font-weight: 700; }
 
 .preamble::after {
   content: "";
@@ -496,7 +499,7 @@ header::after {
   margin-left: auto;
   margin-right: auto;
   background-color: #D80000;
-  color: white;
+  color: #ECE6DA;
   padding: 0.5em;
   display: block;
   position: relative;
@@ -510,7 +513,7 @@ header::after {
   .explanation p {
     max-width: 18em;
     font-size: 1em;
-    font-family: PT Sans Narrow; }
+    font-family: Menlo; }
 
 .explanation::after {
   content: "";
@@ -530,8 +533,7 @@ header::after {
   margin-left: auto;
   margin-right: auto;
   background-color: #D80000;
-  color: white;
-  height: 31em;
+  color: #ECE6DA;
   border-top: 4px solid #4D4D4D;
   border-bottom: 4px solid #4D4D4D;
   border-right: 4px solid #4D4D4D;
@@ -546,7 +548,7 @@ header::after {
     max-width: 5em;
     margin-bottom: 1em; }
   .participation p {
-    font-family: PT Sans Narrow;
+    font-family: Menlo;
     max-width: 20em; }
 
 .participation::after {
@@ -568,7 +570,7 @@ header::after {
   margin-left: auto;
   margin-right: auto;
   background-color: #D80000;
-  color: white;
+  color: #ECE6DA;
   padding: 0.5em;
   max-width: 16em;
   border: 4px solid #4D4D4D;
@@ -577,7 +579,7 @@ header::after {
   .benefits h3 {
     font-family: Impact; }
   .benefits p {
-    font-family: PT Sans Narrow; }
+    font-family: Menlo; }
 
 .benefits::after {
   content: "";
@@ -597,7 +599,7 @@ header::after {
   margin-left: auto;
   margin-right: auto;
   background-color: #D80000;
-  color: white;
+  color: #ECE6DA;
   max-width: 20em;
   padding: 0.5em;
   border: 4px solid #4D4D4D;
@@ -606,7 +608,7 @@ header::after {
   .requirements h3 {
     font-family: Impact; }
   .requirements p {
-    font-family: PT Sans Narrow; }
+    font-family: Menlo; }
 
 .requirements::after {
   content: "";
@@ -654,12 +656,13 @@ ul {
 li {
   padding: 0 0.2em;
   list-style-type: none;
-  font-family: PT Sans Narrow;
+  font-family: Menlo;
   margin-top: 0.5em;
   margin-bottom: 0em;
   border: 3px solid #474241;
   background-color: #EC534F;
-  transform: rotate(0deg); }
+  transform: rotate(0deg);
+  color: #ECE6DA; }
 
 li::after {
   content: "";
@@ -680,7 +683,7 @@ li::after {
   color: white;
   /*background-image: url(https://hkinteractive.files.wordpress.com/2013/05/resource.jpg);*/
   padding: 0.5em;
-  padding-bottom: 8em;
+  padding-bottom: 15em;
   background-color: #D80000;
   transform: rotate(0deg); }
 
@@ -705,52 +708,44 @@ li::after {
   display: block;
   overflow: hidden;
   position: relative;
-  max-width: 21em; }
+  max-width: 21em;
+  color: #ECE6DA; }
   .design-selection h3 {
     font-family: impact;
     text-align: center;
-    margin-right: 6em;
+    margin-right: auto;
     margin-left: auto;
     width: 10em;
-    border: 2px solid #474241;
+    border: 3px solid #474241;
     padding-top: 3em;
     padding-bottom: 3em;
     background-color: #AD9E90;
-    transform: rotate(339deg) translate(0, 6.3em);
+    transform: rotate(0deg) translate(0, 5.5em);
     margin-bottom: 1em; }
   .design-selection li:nth-child(1n) {
-    /*margin-right: 1em;
-    margin-left: 1em;*/
-    transform: rotate(340deg);
-    float: left; }
+    max-width: 17em;
+    transform: rotate(0deg) translate(0, -4em); }
   .design-selection li:nth-child(2n) {
-    transform: rotate(69deg);
-    float: right; }
+    transform: rotate(90deg) translate(3em, -12.5em);
+    max-width: 15em; }
   .design-selection li:nth-child(3n) {
-    margin-top: 0.8em;
-    transform: rotate(340deg);
-    float: left; }
+    max-width: 16em;
+    transform: rotate(0deg) translate(0, -6em); }
   .design-selection li:nth-child(4n) {
-    margin-top: -0.4em;
-    transform: rotate(69deg);
-    float: right; }
+    max-width: 16em;
+    transform: rotate(90deg) translate(-1em, -10em); }
   .design-selection li:nth-child(5n) {
-    margin-top: 3.8em;
-    margin-right: 1em;
-    transform: rotate(69deg);
-    float: left; }
+    max-width: 14em;
+    transform: rotate(90deg) translate(-2em, 5em); }
   .design-selection li:nth-child(6n) {
-    margin-top: 0.2em;
-    transform: rotate(338deg);
-    float: right; }
+    max-width: 11em;
+    transform: rotate(0deg) translate(4em, -1em); }
   .design-selection li:nth-child(7n) {
-    margin-top: 0.1em;
-    transform: rotate(338deg);
-    float: right; }
+    max-width: 12em;
+    transform: rotate(0deg) translate(4em, -1em); }
   .design-selection li:nth-child(8n) {
-    margin-top: -0.6em;
-    transform: rotate(338deg);
-    float: right; }
+    max-width: 16em;
+    transform: rotate(0deg) translate(0, -1em); }
   .design-selection h3::after {
     content: "";
     background-image: url(https://cdn.tutsplus.com/psd/uploads/legacy/60_Constructivist/2.jpg);
@@ -769,8 +764,8 @@ li::after {
   overflow: hidden; }
 
 .design-archives {
-  background-color: #F3A400;
-  border: 4px solid #4D4D4D;
+  background-color: #474241;
+  border: 4px solid #474241;
   margin-bottom: 1em;
   margin-top: 2em;
   margin-left: 1em;
@@ -779,7 +774,8 @@ li::after {
   transform: rotate(0deg);
   display: block;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  color: #ECE6DA; }
   .design-archives h3 {
     font-family: Impact;
     margin-top: 0.2em;
@@ -802,8 +798,8 @@ li::after {
   z-index: -1; }
 
 .zen-resources {
-  background-color: #F3A400;
-  border: 4px solid #4D4D4D;
+  background-color: #474241;
+  border: 4px solid #474241;
   margin-bottom: 2em;
   margin-top: 2em;
   max-width: 15em;
@@ -811,14 +807,15 @@ li::after {
   padding: 0 0.5em 0 0.5em;
   transform: rotate(0deg);
   display: block;
-  position: relative; }
+  position: relative;
+  color: #ECE6DA; }
   .zen-resources h3 {
     font-family: impact;
     margin-top: 0.2em;
     margin-bottom: 0.2em; }
   .zen-resources li:nth-child(1n) {
     margin-top: 5em;
-    margin-bottom: 1em; }
+    transform: translate(13em, 0); }
   .zen-resources li:nth-child(2n) {
     margin-top: 0.2em;
     margin-bottom: 0; }
