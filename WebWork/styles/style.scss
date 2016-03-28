@@ -21,14 +21,21 @@ a {
 .intro{
 	color: #ECE6DA;
 	overflow: hidden;
+	padding-top: 11em;
 	padding-bottom: 3em;
 	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fist.svg/2000px-Fist.svg.png) center top no-repeat;
 	background-attachment: fixed;
-	background-size: 70%;
+	background-size: 30%;
 	animation: rise 2s forwards;
-	height: 100%;
-
-}
+	
+	@media (min-width:600px){
+		padding-top: 20em;
+	}
+	@media (min-width:1000px){
+		padding-top: 35em;
+	}
+}	
+	
 
 @keyframes rise{
 	0%{
@@ -42,30 +49,48 @@ a {
 
 
 header{
-	transform: rotate(345deg);
+	transform: rotate(356deg);
 	background-color: #D80000;
 	text-align: center;
-	margin-top: 27em;
-	margin-left: 2em;
-	margin-right: 4em;
-	padding: 0.1em;
-	width: 100%;
-	padding-right: 0.2em;
-	padding-left: 0.2em;
 	border: 4px solid #4D4D4D;
 	display: block;
 	position: relative;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	color: #ECE6DA;
+
 
 	h1{
 		font-family: Impact;
 		font-weight: 700;
-		max-width: 17em;
+		font-size: 2em;
+		margin: 0 auto;
 	}
 	h2{
 		font-family: Impact;
 		font-weight: 700;
-		max-width: 18em;
+		font-size: 1.5em;
+		margin: 0 auto;
+		
 	}
+	@media (min-width:600px){
+		h1{
+			font-size: 3em;
+		}
+		h2{
+			font-size: 2em;
+		}
+	}
+	@media (min-width:1000px){
+		h1{
+			font-size: 4.5em;
+		}
+		h2{
+			font-size: 3em;
+		}
+
+	}
+		
 }
 
 header::after{
@@ -81,20 +106,32 @@ header::after{
 }	
 
 .summary{
-	transform: rotate(345deg);
+	transform: rotate(356deg);
 	background-color: #D80000;
-	margin-left: 1em;
-	width: 100%;
-	margin-top: auto;
-	padding: 0.5em;
 	border: 4px solid #4D4D4D;
 	display: block;
 	position: relative;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	color: #ECE6DA;
 	p{
 		padding-left: 1em;
-		max-width: 20em;
 		font-family: Menlo;
 		font-weight: 700;
+		font-size: 1em;
+		margin: 0 auto;
+	}
+
+	@media (min-width:600px){
+		p{
+			font-size: 1.3em;
+		}
+	}
+
+	@media (min-width:1000px){
+		p{
+			font-size: 1.5em;
+		}
 	}
 }
 
@@ -113,25 +150,24 @@ header::after{
 /*************** PREAMBLE *****************************/
 
 .preamble{
-	transform: rotate(345deg);
-	margin-left: 3.5em;
-	margin-top: -1.5em;
+	transform: rotate(356deg);
 	background-color:  #D80000;
 	color: #ECE6DA;
-	width: 100%;
-	padding: 0.5em;
 	border: 4px solid #4D4D4D;
 	display: block;
 	position: relative;
+	padding: 0.5em;
+	margin-bottom: 1em;
+	
 	h3{
-		max-width: 12em;
 		font-family: Impact;
+		margin: 0 auto;
+		padding: 0.3em;
 	}
 	p{
-		padding-left: 0.2em;
-		max-width: 17.5em;
 		font-family: Menlo;
 		font-weight: 700;
+		margin: 0 auto;
 	}
 }
 
@@ -383,18 +419,15 @@ li::after{
 	z-index: -1;
 }	
 
-.sidebar{
-	overflow: hidden;
-}
-
 .wrapper{
-	overflow: hidden;
-	color: white;
-	/*background-image: url(https://hkinteractive.files.wordpress.com/2013/05/resource.jpg);*/
 	padding: 0.5em;
-	padding-bottom: 6em;
+	padding-bottom: 2em;
 	background-color: #D80000;
 	transform: rotate(0deg);
+
+	@media (min-width:600px){
+		padding-bottom: 1em;
+	}
 }
 
 .wrapper::after{
@@ -485,6 +518,15 @@ li::after{
 		position: absolute;
 		z-index: -1;
 	}
+
+	@media (min-width: 600px){
+		height: 19em;
+	}
+
+	@media (min-width: 1000px){
+		height: 17em;
+		transform: translate(30em, 5em);
+	}
 }
 
 .design-archives{
@@ -509,6 +551,14 @@ li::after{
 	}
 	li:nth-child(2n){
 		transform: translate(11em,6.2em);
+	}
+
+	@media (min-width: 600px){
+		transform: translate(25em, -18em);
+	}
+
+	@media (min-width: 1000px){
+		transform: translate(6em, -7em);
 	}
 }
 
@@ -544,6 +594,14 @@ li::after{
 	}
 	li:nth-child(5n){
 		margin-top: 0.2em;
+	}
+
+	@media (min-width: 600px){
+		transform: translate(25em, -17em);
+	}
+
+	@media (min-width: 1000px){
+		transform: translate(55em, -17em);
 	}
 }
 
