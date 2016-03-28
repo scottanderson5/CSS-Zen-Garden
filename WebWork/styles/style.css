@@ -386,6 +386,9 @@ a {
     transform: translate(0, 100em); }
   100% {
     transform: translate(0, 0em); } }
+header::before {
+  content: url(http://indeepmusicarchive.net/wp-content/uploads/2015/11/Black-Star-432px-100x100.png); }
+
 header {
   transform: rotate(356deg);
   background-color: #D80000;
@@ -498,6 +501,9 @@ header::after {
   transform: rotate(0deg);
   display: block;
   position: relative; }
+  @media (min-width: 1000px) {
+    .supporting {
+      height: 115em; } }
 
 .supporting::after {
   content: "";
@@ -532,6 +538,9 @@ header::after {
     max-width: 18em;
     font-size: 1em;
     font-family: Menlo; }
+  @media (min-width: 1000px) {
+    .explanation {
+      transform: rotate(320deg) translate(13em, 12em); } }
 
 .explanation::after {
   content: "";
@@ -556,7 +565,6 @@ header::after {
   border-bottom: 4px solid #4D4D4D;
   border-right: 4px solid #4D4D4D;
   max-width: 19em;
-  /*float: right;*/
   padding: 0.5em;
   border: 4px solid #4D4D4D;
   display: block;
@@ -568,6 +576,9 @@ header::after {
   .participation p {
     font-family: Menlo;
     max-width: 20em; }
+  @media (min-width: 1000px) {
+    .participation {
+      transform: rotate(320deg) translate(18em, 4em); } }
 
 .participation::after {
   content: "";
@@ -582,15 +593,14 @@ header::after {
 
 /*************** BENEFITS *****************************/
 .benefits {
+  max-width: 18em;
   transform: rotate(0deg);
-  /*transform: skewy(50deg);*/
   margin-top: -1em;
   margin-left: auto;
   margin-right: auto;
   background-color: #D80000;
   color: #ECE6DA;
   padding: 0.5em;
-  max-width: 16em;
   border: 4px solid #4D4D4D;
   display: block;
   position: relative; }
@@ -598,6 +608,11 @@ header::after {
     font-family: Impact; }
   .benefits p {
     font-family: Menlo; }
+  @media (min-width: 1000px) {
+    .benefits {
+      max-width: 21em;
+      max-height: 22em;
+      transform: rotate(320deg) translate(37em, -52em); } }
 
 .benefits::after {
   content: "";
@@ -627,6 +642,9 @@ header::after {
     font-family: Impact; }
   .requirements p {
     font-family: Menlo; }
+  @media (min-width: 1000px) {
+    .requirements {
+      transform: rotate(320deg) translate(42em, -59em); } }
 
 .requirements::after {
   content: "";
@@ -651,6 +669,9 @@ footer {
   position: relative;
   margin: 1em auto 2em auto;
   font-family: Impact; }
+  @media (min-width: 1000px) {
+    footer {
+      transform: rotate(320deg) translate(68em, -50em); } }
 
 footer::after {
   content: "";
