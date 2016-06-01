@@ -400,12 +400,12 @@ header {
   margin-bottom: 1em;
   color: #ECE6DA; }
   header h1 {
-    font-family: Impact;
+    font-family: Russian;
     font-weight: 700;
     font-size: 2em;
     margin: 0 auto; }
   header h2 {
-    font-family: Impact;
+    font-family: Russian;
     font-weight: 700;
     font-size: 1.5em;
     margin: 0 auto; }
@@ -475,13 +475,15 @@ header::after {
   padding: 0.5em;
   margin-bottom: 1em; }
   .preamble h3 {
-    font-family: Impact;
+    font-family: Russian;
+    letter-spacing: 0.1em;
     margin: 0 auto;
     padding: 0.3em; }
   .preamble p {
     font-family: Menlo;
     font-weight: 700;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 0.3em; }
 
 .preamble::after {
   content: "";
@@ -532,7 +534,8 @@ header::after {
   border: 4px solid #4D4D4D; }
   .explanation h3 {
     margin-top: 0;
-    font-family: Impact;
+    font-family: Russian;
+    letter-spacing: 0.1em;
     max-width: 12em; }
   .explanation p {
     max-width: 18em;
@@ -570,7 +573,8 @@ header::after {
   display: block;
   position: relative; }
   .participation h3 {
-    font-family: Impact;
+    font-family: Russian;
+    letter-spacing: 0.1em;
     max-width: 5em;
     margin-bottom: 1em; }
   .participation p {
@@ -605,7 +609,8 @@ header::after {
   display: block;
   position: relative; }
   .benefits h3 {
-    font-family: Impact; }
+    font-family: Russian;
+    letter-spacing: 0.1em; }
   .benefits p {
     font-family: Menlo; }
   @media (min-width: 1000px) {
@@ -639,7 +644,8 @@ header::after {
   display: block;
   position: relative; }
   .requirements h3 {
-    font-family: Impact; }
+    font-family: Russian;
+    letter-spacing: 0.1em; }
   .requirements p {
     font-family: Menlo; }
   @media (min-width: 1000px) {
@@ -668,10 +674,11 @@ footer {
   display: block;
   position: relative;
   margin: 1em auto 2em auto;
-  font-family: Impact; }
+  font-family: Russian;
+  letter-spacing: 0.1em; }
   @media (min-width: 1000px) {
     footer {
-      transform: rotate(320deg) translate(68em, -50em); } }
+      transform: rotate(320deg) translate(67em, -50em); } }
 
 footer::after {
   content: "";
@@ -747,7 +754,8 @@ li::after {
   max-width: 21em;
   color: #ECE6DA; }
   .design-selection h3 {
-    font-family: impact;
+    font-family: Russian;
+    letter-spacing: 0.1em;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -802,20 +810,21 @@ li::after {
 
 .design-archives {
   background: url(http://pngimg.com/upload/star_PNG1595.png);
-  background-size: 45%;
+  background-size: 48%;
   background-repeat: no-repeat;
   height: 100%;
-  max-width: 20em;
+  max-width: 22em;
   padding-bottom: 8em;
   transform: rotate(0deg);
   position: relative; }
   .design-archives h3 {
-    font-family: Impact;
+    font-family: Russian;
+    letter-spacing: 0.1em;
     color: #ECE6DA;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
     text-align: left;
-    transform: translate(2em, 2.8em); }
+    transform: translate(2.2em, 3.3em); }
   .design-archives li:nth-child(1n) {
     transform: translate(11em, 6.1em); }
   .design-archives li:nth-child(2n) {
@@ -829,18 +838,19 @@ li::after {
 
 .zen-resources {
   background: url(http://pngimg.com/upload/star_PNG1595.png);
-  background-size: 45%;
+  background-size: 48%;
   background-repeat: no-repeat;
   height: 100%;
-  max-width: 20em;
+  max-width: 22em;
   padding-bottom: 8em;
   transform: rotate(0deg); }
   .zen-resources h3 {
-    font-family: impact;
+    font-family: Russian;
+    letter-spacing: 0.1em;
     color: #ECE6DA;
     margin-top: 0.2em;
     margin-bottom: 0.2em;
-    transform: translate(1.6em, 2.8em); }
+    transform: translate(1.9em, 3.3em); }
   .zen-resources li:nth-child(1n) {
     max-width: 12em;
     margin-top: 5em;
