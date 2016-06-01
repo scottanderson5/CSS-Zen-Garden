@@ -461,7 +461,8 @@ li::after{
 .wrapper{
 	padding-top: 0.5em;
 	//padding-bottom: 2em;
-	background-color: #D80000;
+	//background-color: #D80000;
+	background-color: #BC3131;
 	transform: rotate(0deg);
 
 	@media (min-width:600px){
@@ -511,7 +512,7 @@ li::after{
 	}
 	li:nth-child(1n){
 		max-width: 17em;
-		transform: rotate(0deg) translate(0, -4em);
+		transform: rotate(0deg) translate(0, -6em);
 	}
 	li:nth-child(2n){
 		transform: rotate(90deg) translate(3em, -12.5em);
@@ -519,7 +520,7 @@ li::after{
 	}
 	li:nth-child(3n){
 		max-width: 16em;
-		transform: rotate(0deg) translate(0, -6.2em);
+		transform: rotate(0deg) translate(0, -8em);
 		
 	}
 	li:nth-child(4n){
@@ -646,7 +647,7 @@ li::after{
 	}
 
 	@media (min-width: 1000px){
-		transform: translate(55em, -17em);
+		transform: translate(55em, -17.2em);
 	}
 }
 
