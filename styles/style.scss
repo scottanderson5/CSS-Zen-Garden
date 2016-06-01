@@ -70,13 +70,13 @@ header{
 
 
 	h1{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
 		font-weight: 700;
 		font-size: 2em;
 		margin: 0 auto;
 	}
 	h2{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
 		font-weight: 700;
 		font-size: 1.5em;
 		margin: 0 auto;
@@ -169,7 +169,7 @@ header::after{
 	margin-bottom: 1em;
 	
 	h3{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
 		letter-spacing: 0.1em;
 		margin: 0 auto;
 		padding: 0.3em;
@@ -237,7 +237,7 @@ header::after{
 
 	h3{
 		margin-top: 0;
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
 		letter-spacing: 0.1em;
 		max-width: 12em;
 	}
@@ -284,7 +284,7 @@ header::after{
 	display: block;
 	position: relative;
 	h3{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
 		letter-spacing: 0.1em;
 		max-width: 5em;
 		margin-bottom: 1em;
@@ -327,7 +327,7 @@ header::after{
 	display: block;
 	position: relative;
 	h3{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
 		letter-spacing: 0.1em;
 	}
 	p{
@@ -368,7 +368,7 @@ header::after{
 	display: block;
 	position: relative;
 	h3{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
 		letter-spacing: 0.1em;
 	}
 	p{
@@ -403,7 +403,7 @@ footer{
 	display: block;
 	position: relative;
 	margin: 1em auto 2em auto;
-	font-family: Russian;
+	font-family: 'industry-inc-stencil';
 	letter-spacing: 0.1em;
 
 	@media(min-width: 1000px){
@@ -459,8 +459,8 @@ li::after{
 }	
 
 .wrapper{
-	padding: 0.5em;
-	padding-bottom: 2em;
+	padding-top: 0.5em;
+	//padding-bottom: 2em;
 	background-color: #D80000;
 	transform: rotate(0deg);
 
@@ -488,13 +488,14 @@ li::after{
 	margin-top: 1.5em;
 	margin-left: 1.5em;
 	padding-top: 1em;
+	padding-bottom: 3em;
 	display: block;
 	overflow: hidden;
 	position: relative;
 	max-width: 21em;
 	color: #ECE6DA;
 	h3{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
 		letter-spacing: 0.1em;
 		text-align: center;
 		margin-right: auto;
@@ -518,7 +519,7 @@ li::after{
 	}
 	li:nth-child(3n){
 		max-width: 16em;
-		transform: rotate(0deg) translate(0, -6em);
+		transform: rotate(0deg) translate(0, -6.2em);
 		
 	}
 	li:nth-child(4n){
@@ -575,17 +576,18 @@ li::after{
 	background-repeat: no-repeat;
 	height: 100%;
 	max-width: 22em;
-	padding-bottom: 8em;
+	padding-bottom: 9em;
 	transform: rotate(0deg);
 	position: relative;
 	h3{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
+		font-size: 1em;
 		letter-spacing: 0.1em;
 		color: #ECE6DA;
 		margin-top: 0.2em;
 		margin-bottom: 0.2em;
 		text-align: left;
-		transform: translate(2.2em, 3.3em);
+		transform: translate(2.2em, 3.9em);
 	}
 	li:nth-child(1n){
 		transform: translate(11em, 6.1em);
@@ -599,7 +601,7 @@ li::after{
 	}
 
 	@media (min-width: 1000px){
-		transform: translate(6em, -7em);
+		transform: translate(6em, -6.5em);
 	}
 }
 
@@ -609,15 +611,16 @@ li::after{
 	background-repeat: no-repeat;
 	height: 100%;
 	max-width: 22em;
-	padding-bottom: 8em;
+	padding-bottom: 9em;
 	transform: rotate(0deg);
 	h3{
-		font-family: Russian;
+		font-family: 'industry-inc-stencil';
+		font-size: 1em;
 		letter-spacing: 0.1em;
 		color: #ECE6DA;
 		margin-top: 0.2em;
 		margin-bottom: 0.2em;
-		transform: translate(1.9em, 3.3em);
+		transform: translate(1.9em, 3.9em);
 	}
 	li:nth-child(1n){
 		max-width: 12em;
