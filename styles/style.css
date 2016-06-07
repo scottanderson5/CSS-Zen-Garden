@@ -728,6 +728,9 @@ li::after {
   @media (min-width: 600px) {
     .wrapper {
       padding-bottom: 1em; } }
+  @media (min-width: 900px) {
+    .wrapper {
+      margin: 0 auto; } }
 
 .wrapper::after {
   content: "";
@@ -752,7 +755,11 @@ li::after {
   overflow: hidden;
   position: relative;
   max-width: 21em;
-  color: #ECE6DA; }
+  color: #ECE6DA;
+  /*@media (min-width: 1000px){
+  	height: 17em;
+  	transform: translate(30em, 5em);
+  }*/ }
   .design-selection h3 {
     font-family: 'industry-inc-stencil';
     letter-spacing: 0.1em;
@@ -805,8 +812,7 @@ li::after {
       height: 19em; } }
   @media (min-width: 1000px) {
     .design-selection {
-      height: 17em;
-      transform: translate(30em, 5em); } }
+      margin-left: 20%; } }
 
 .design-archives {
   background: url(http://pngimg.com/upload/star_PNG1595.png);
@@ -816,7 +822,10 @@ li::after {
   max-width: 22em;
   padding-bottom: 9em;
   transform: rotate(0deg);
-  position: relative; }
+  position: relative;
+  /*@media (min-width: 1000px){
+  	transform: translate(6em, -6.5em);
+  }*/ }
   .design-archives h3 {
     font-family: 'industry-inc-stencil';
     font-size: 1em;
@@ -835,7 +844,7 @@ li::after {
       transform: translate(25em, -18em); } }
   @media (min-width: 1000px) {
     .design-archives {
-      transform: translate(6em, -6.5em); } }
+      margin-left: 20%; } }
 
 .zen-resources {
   background: url(http://pngimg.com/upload/star_PNG1595.png);
@@ -844,7 +853,10 @@ li::after {
   height: 100%;
   max-width: 22em;
   padding-bottom: 9em;
-  transform: rotate(0deg); }
+  transform: rotate(0deg);
+  /*@media (min-width: 1000px){
+  	transform: translate(55em, -17.2em);
+  }*/ }
   .zen-resources h3 {
     font-family: 'industry-inc-stencil';
     font-size: 1em;
@@ -871,6 +883,6 @@ li::after {
       transform: translate(25em, -17em); } }
   @media (min-width: 1000px) {
     .zen-resources {
-      transform: translate(55em, -17.2em); } }
+      margin-left: 20%; } }
 
 /*# sourceMappingURL=style.css.map */

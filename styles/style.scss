@@ -468,6 +468,11 @@ li::after{
 	@media (min-width:600px){
 		padding-bottom: 1em;
 	}
+
+	@media (min-width: 900px){
+		margin: 0 auto;
+	}
+
 }
 
 .wrapper::after{
@@ -565,9 +570,13 @@ li::after{
 		height: 19em;
 	}
 
-	@media (min-width: 1000px){
+	/*@media (min-width: 1000px){
 		height: 17em;
 		transform: translate(30em, 5em);
+	}*/
+
+	@media (min-width: 1000px){
+		margin-left: 20%;
 	}
 }
 
@@ -601,9 +610,13 @@ li::after{
 		transform: translate(25em, -18em);
 	}
 
-	@media (min-width: 1000px){
+	/*@media (min-width: 1000px){
 		transform: translate(6em, -6.5em);
+	}*/
+@media (min-width: 1000px){
+		margin-left: 20%;
 	}
+
 }
 
 .zen-resources{
@@ -646,9 +659,14 @@ li::after{
 		transform: translate(25em, -17em);
 	}
 
-	@media (min-width: 1000px){
+	/*@media (min-width: 1000px){
 		transform: translate(55em, -17.2em);
+	}*/
+
+	@media (min-width: 1000px){
+		margin-left: 20%;
 	}
+
 }
 
 
